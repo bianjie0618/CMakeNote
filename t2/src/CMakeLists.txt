@@ -1,0 +1,11 @@
+ADD_EXECUTABLE (hello main.c)
+
+# 设定可执行文件的输出路径
+# SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+
+# 设定库目标二进制文件的输出目录
+# SET (LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+
+# 目标文件的安装
+INSTALL (TARGETS hello RUNTIME DESTINATION bin )
+
